@@ -7,7 +7,7 @@ A Simple Telegram Bot To Delete Group Messages After Specific Time.
 
 ## Deploy in your VPS
 ```sh
-git clone https://github.com/Arun-TG/AutoDelete/tree/Bot-Only
+git clone https://github.com/Arun-TG/AutoDelete/tree/Second
 cd AutoDelete
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
@@ -24,8 +24,8 @@ python3 sam.py
 6. `TIME` : Time Duration for deletion
 
 #
-- In [Bot-Only](https://github.com/Arun-TG/AutoDelete/tree/Bot-Only) Branch Bot can only delete message of Users.
-- If you want to delete Messages Sent By Bots Deploy [Main](https://github.com/Arun-TG/AutoDelete/tree/main) Branch 
+- In [Second](https://github.com/Arun-TG/AutoDelete/tree/Second) Branch Bot can only delete message of Users.
+- If you want to delete Messages Sent By Both Bots & Users Deploy [Main](https://github.com/Arun-TG/AutoDelete/tree/main) Branch 
 
 # Credits
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
