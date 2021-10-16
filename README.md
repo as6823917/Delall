@@ -23,7 +23,7 @@ python3 sam.py
 5. `BOT_USERNAME` : Your Bot Username Without '@'
 6. `TIME` : Time Duration for deletion
 
-##
+#
 - In [Bot-Only](https://github.com/Arun-TG/AutoDelete/tree/Bot-Only) Branch Bot can only delete message of Users.
 - If you want to delete Messages Sent By Bots Deploy [Main](https://github.com/Arun-TG/AutoDelete/tree/main) Branch 
 
