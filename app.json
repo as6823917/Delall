@@ -8,7 +8,7 @@
         "telegram-bot",
         "ArunSince2005"
     ],
-    "repository": "https://github.com/Arun-TG/AutoDelete/tree/Second",
+    "repository": "https://github.com/Arun-TG/AutoDelete",
     "website": "t.me/ArunSince2005",
     "success_url": "https://t.me/Arun_TG",
     "env": {
