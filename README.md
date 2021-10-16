@@ -1,14 +1,13 @@
 # Auto-Delete
-Simple Telegram UserBot To Delete Group Messages In Specific Time.
-Based on Pyrogram
+A Simple Telegram Bot To Delete Group Messages After Specific Time.
 
 ## Deploy on Heroku
  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-- DON'T FORGET TO TURN ON DYNOS IN HEROKU
-## Deploy in your VPS
+- DON'T FORGET TO TURN ON DYNOS
 
+## Deploy in your VPS
 ```sh
-git clone https://github.com/Arun-TG/AutoDelete
+git clone https://github.com/Arun-TG/AutoDelete/tree/Bot-Only
 cd AutoDelete
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
@@ -19,10 +18,14 @@ python3 sam.py
 ### Variables:
 1. `API_ID` : Get From [my.telegram.org](https://my.telegram.org/)
 2. `API_HASH` : Get from [my.telegram.org](https://my.telegram.org)
-3. `ADMINS` : ID of Admins (Userbot will not delete Messages of Admins)
-4. `SESSION` : Generate From here [![GenerateStringName](https://img.shields.io/badge/repl.it-generateStringName-yellowgreen)](https://repl.it/@subinps/getStringName)
-5. `GROUPS` : ID of Groups where the userbot works.
+3. `ADMINS` : ID of Admins (Bot will not delete Messages of Admins)
+4. `BOT_TOKEN` : Your Telegram Bot Token from [@BotFather](https://t.me/BotFather)
+5. `BOT_USERNAME` : Your Bot Username Without '@'
 6. `TIME` : Time Duration for deletion
+
+##
+- In [Bot-Only](https://github.com/Arun-TG/AutoDelete/tree/Bot-Only) Branch Bot can only delete message of Users.
+- If you want to delete Messages Sent By Bots Deploy [Main](https://github.com/Arun-TG/AutoDelete/tree/main) Branch 
 
 # Credits
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
