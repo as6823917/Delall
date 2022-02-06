@@ -28,6 +28,9 @@
             "description": "ID Of Admins",
             "value": ""
         },
+        "BOT_TOKEN": {
+            "description": "Get it from @BotFather"
+        },
         "TIME": {
             "description": "Time Duration For Deletion (In Seconds)",
             "value": ""
