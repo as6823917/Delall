@@ -8,34 +8,26 @@
         "telegram-bot",
         "ArunSince2005"
     ],
-    "repository": "https://github.com/Arun-TG/AutoDelete",
+    "repository": "https://github.com/as6823917/Delall" ,
     "website": "t.me/ArunSince2005",
     "success_url": "https://t.me/Arun_TG",
     "env": {
-        "API_HASH": {
-            "description": "You API HASH from my.telegram.org",
-            "value": ""
-        },
-        "API_ID": {
-            "description": "You API ID from my.telegram.org",
-            "value": ""
-        },
 
-        "ADMINS": {
+        "baseURL": {
             "description": "ID Of Admins",
             "value": ""
         },
-        "BOT_TOKEN": {
-            "description": "Get it from @BotFather"
+        "TOKEN": {
+            "description": "Get it from @BotFather", 
+            "value": "" 
         },
-        "TIME": {
-            "description": "Time Duration For Deletion (In Seconds)",
-            "value": ""
-        },
-        "GROUPS": {
+        "affiliate_tag": {
+             "description": "ID Of Admins",
+             "value": ""
+       }, 
+        "HEROKU_URL": {
             "description": "ID of Groups where the userbot works",
             "value": ""
-        }
     },
     "buildpacks": [
         {
