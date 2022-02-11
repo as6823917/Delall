@@ -28,6 +28,7 @@
         "HEROKU_URL": {
             "description": "ID of Groups where the userbot works",
             "value": ""
+    } 
     },
     "buildpacks": [
         {
